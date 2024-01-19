@@ -2,6 +2,7 @@ import Link from "next/link";
 import GlobalStyle from "../styles";
 import styled from "styled-components";
 
+
 const StyledNav = styled.nav`
   border-bottom: solid 2px grey;
   padding: 1rem;
