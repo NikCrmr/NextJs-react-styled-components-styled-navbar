@@ -5,6 +5,7 @@ import styled from "styled-components";
 const StyledNav = styled.nav`
   border-bottom: solid 2px grey;
   padding: 1rem;
+  background-image: url("./sky-6804245_640.jpg");
 `;
 
 const StyledList = styled.ul`
@@ -15,7 +16,7 @@ const StyledList = styled.ul`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
-  color: orange;
+  color: yellow;
   font-size: 2rem;
   &:hover {
     text-decoration: underline;
