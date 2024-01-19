@@ -22,6 +22,7 @@ const StyledLink = styled(Link)`
     background-color: black;
     text-shadow: 3px 3px white;
     font-size: 40px;
+    border-radius: 20px;
   }
   &:after {
     content: " <- Click Me!";
