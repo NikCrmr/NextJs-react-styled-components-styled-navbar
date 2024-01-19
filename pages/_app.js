@@ -16,6 +16,7 @@ const StyledList = styled.ul`
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: orange;
+  font-size:2rem
   &:hover {
     text-decoration: underline;
     color: hotpink;
