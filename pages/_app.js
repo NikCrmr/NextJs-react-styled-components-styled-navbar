@@ -13,6 +13,12 @@ const StyledList = styled.ul`
   display: flex;
   gap: 1rem;
 `;
+//using props in styled components
+const StyledButton = styled.button`
+  color: ${(props) => (props.variant !== "2" ? "lightblue" : "black")};
+  background-color: ${(props) =>
+    props.variant === "2" ? "yellow" : "hotpink"};
+`;
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -51,6 +57,8 @@ export default function App({ Component, pageProps }) {
             <StyledLink href="/contact">Contact</StyledLink>
           </li>
         </StyledList>
+        <StyledButton>1. Button</StyledButton>
+        <StyledButton variant="2">2. Button</StyledButton>
       </StyledNav>
       <Component {...pageProps} />
     </>
